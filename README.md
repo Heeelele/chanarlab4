@@ -1,50 +1,50 @@
-\# Lab 04 — Нэгжийн тест JUnit 5
+﻿# Lab 04 — Нэгжийн тест JUnit 5
 
 
 
-\## Оюутны мэдээлэл
+## Оюутны мэдээлэл
 
-\- Нэр: С.Төгөлдөр
+- Нэр: С.Төгөлдөр
 
-\- Оюутны код: B232270801
-
-
-
-\## Ашигласан технологи
-
-\- Java 17.0.21.1
-
-\- Maven 3.10.2
-
-\- JUnit Jupiter 5.10.2
-
-\- Maven Surefire 3.2.5
-
-\- Windows 11
+- Оюутны код: B232270801
 
 
 
-\## Тестийн үр дүн
+## Ашигласан технологи
 
-\- Энгийн тестийн метод: 16
+- Java 17.0.21.1
 
-\- Parameterized тестийн метод: 2
+- Maven 3.10.2
 
-\- Нийт тестийн метод: 18
+- JUnit Jupiter 5.10.2
 
-\- Tests run: 29
+- Maven Surefire 3.2.5
 
-\- Failures: 0
-
-\- Errors: 0
-
-\- Skipped: 0
-
-\- BUILD SUCCESS
+- Windows 11
 
 
 
-\## Mutation testing
+## Тестийн үр дүн
+
+- Энгийн тестийн метод: 16
+
+- Parameterized тестийн метод: 2
+
+- Нийт тестийн метод: 18
+
+- Tests run: 29
+
+- Failures: 0
+
+- Errors: 0
+
+- Skipped: 0
+
+- BUILD SUCCESS
+
+
+
+## Mutation testing
 
 
 
@@ -56,9 +56,9 @@ score > 90 болгон зориуд өөрчилсөн.
 
 Унасан тестүүд:
 
-\- GradeCalculatorTest.ninetyIsExactlyA
+- GradeCalculatorTest.ninetyIsExactlyA
 
-\- GradeCalculatorParameterizedTest.letterGradeBoundaries
+- GradeCalculatorParameterizedTest.letterGradeBoundaries
 
 
 
@@ -68,15 +68,15 @@ expected: <A> but was: <B>
 
 
 
-\- Tests run: 29
+- Tests run: 29
 
-\- Failures: 2
+- Failures: 2
 
-\- Errors: 0
+- Errors: 0
 
-\- Skipped: 0
+- Skipped: 0
 
-\- BUILD FAILURE
+- BUILD FAILURE
 
 
 
@@ -86,15 +86,15 @@ expected: <A> but was: <B>
 
 
 
-\## Тестийн тайлан
+## Тестийн тайлан
 
-\- results/mvn-test.txt
+- results/mvn-test.txt
 
-\- results/mvn-test-mutant.txt
+- results/mvn-test-mutant.txt
 
 
 
-\## Дүгнэлт
+## Дүгнэлт
 
 
 
@@ -128,3 +128,4 @@ Java version: 17.0.21.1, vendor: Eclipse Adoptium, runtime: C:\Program Files\Ecl
 Default locale: en_US, platform encoding: Cp1252, time zone: Asia/Ulaanbaatar
 OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
 ```
+
